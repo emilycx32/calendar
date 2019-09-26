@@ -524,10 +524,10 @@ Component({
                 for (let j = 0; j < days.length; j++) {
                     if (days[j].info == item.month && days[j].day == item.day) {
                         if (item.color) {
-                            days[j].color = item.color + '!important';
+                            days[j].color = item.color;
                         }
                         if (item.background) {
-                            days[j].background = item.background + '!important';
+                            days[j].background = item.background;
                         }
                     }
                 }
